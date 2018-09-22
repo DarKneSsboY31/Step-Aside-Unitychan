@@ -29,7 +29,7 @@ public class DestroyController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Unityちゃんのz軸がオブジェクトのz軸を超えた場合、オブジェクトを消す。
-        if (unitychan.transform.position.z  > this.transform.position.z +4.0f ) {
+        if (unitychan.transform.position.z  > this.transform.position.z + 5.0f ) {
             Destroy(gameObject);
         }
 	}
